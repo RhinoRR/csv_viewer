@@ -1,0 +1,19 @@
+{
+  "name": "express-example",
+  "license": "ISC",
+  "bin": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
+    "express": "4.15.2",
+    "formidable-serverless": "^1.0.3"
+  },
+  "pkg": {
+    "assets": [
+      "public/**/*"
+    ],
+    "targets": [
+      "node8"
+    ]
+  }
+}
